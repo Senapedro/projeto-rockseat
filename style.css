@@ -167,6 +167,19 @@ footer {
     }
 } */
 
+@media (max-width: 768px) {
+    /* Adjustments for screens with a maximum width of 768px or less */
+    #container {
+        padding: 0 15px;
+    }
+
+    #profile img {
+        width: 40px;
+    }
+
+    /* Add any other specific adjustments for smaller screens */
+}
+
 @keyframes slide-in {
     from {
         left: 0;
